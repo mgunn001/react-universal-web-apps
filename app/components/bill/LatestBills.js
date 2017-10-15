@@ -32,3 +32,4 @@ export default class LatestBills extends React.Component {
         });
     }
 }
+            

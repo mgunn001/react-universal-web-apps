@@ -16,6 +16,7 @@ const routeManager = Object.assign({}, baseManager, {
         app.use('/', pagesRouter);            
     },
 
+    //ByMahee-- this one probably is to decide which page to be pushed to UI
     createPageRouter() {
         const router = express.Router();
         
@@ -26,6 +27,7 @@ const routeManager = Object.assign({}, baseManager, {
         return router;
     },
 
+    //ByMahee-- this one probably is to decide wich server method to execute
     createApiRouter(app) {
         const router = express.Router();
 
